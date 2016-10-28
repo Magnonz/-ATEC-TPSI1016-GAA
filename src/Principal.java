@@ -21,16 +21,13 @@ public class Principal {
 		Scanner reader = new Scanner(System.in);
 		int op=reader.nextInt();
 		
-		if(op==1){
-			new CalculadoraSimples(); 
-		}else if(op ==2){
-			new BalacoGAA();
-		}else if(op ==3){
-			new AdivinhaNumero();
-		}else if(op==0){
-			System.out.println("Adeus!!");
+		switch(op){
+		case 1 : new CalculadoraSimples();break; 
+		case 2 : new BalacoGAA();break;
+		case 3 : new AdivinhaNumero();break;
+		case 0 : System.out.println("Adeus!!");break;
+		default: System.out.println("Valor invalido");break;
 		}
-	
 	}
 	
 
