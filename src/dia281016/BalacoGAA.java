@@ -10,11 +10,11 @@ public class BalacoGAA {
 	public BalacoGAA() {
 		
 		Scanner reader = new Scanner(System.in);
-		System.out.print("Meta o valor das quotas:");
+		System.out.print("Intruduza o valor das quotas:");
 		int quotas=reader.nextInt();
-		System.out.print("Meta o valor das :");
+		System.out.print("Intruduza o valor do Baile :");
 		int recBaile=reader.nextInt();
-		System.out.print("Meta o valor das :");
+		System.out.print("Intruduza o valor do Bar :");
 		int recBar=reader.nextInt();
 		
 		totalReceitas=quotas+recBaile+recBar;
@@ -35,19 +35,18 @@ public class BalacoGAA {
 			 
 		}else if(op ==2){
 				
-			System.out.println("Bye-Bye!!!");
-				
+			System.out.println("Bye-Bye!!!");				
 		}
 		
 	}
 	public void calcularDespesas(){
 		
 		Scanner reader = new Scanner(System.in);
-		System.out.print("Meta o valor da agua:");
+		System.out.print("Intruduza o valor da agua:");
 		int agua=reader.nextInt();
-		System.out.print("Meta o valor da luz :");
+		System.out.print("Intruduza o valor da luz :");
 		int luz=reader.nextInt();
-		System.out.print("Meta o valor do telefone :");
+		System.out.print("Intruduza o valor do telefone :");
 		int telefone=reader.nextInt();
 		
 		totalDespesas=agua+luz+telefone;
