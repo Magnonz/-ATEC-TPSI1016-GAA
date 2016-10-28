@@ -29,8 +29,7 @@ public class ExercicioBalanco {
 		
 		
 		
-		totalReceitas=quotas+recBaile+recBar;
-		
+		totalReceitas=quotas+recBaile+recBar;		
 		
 		
 	}
