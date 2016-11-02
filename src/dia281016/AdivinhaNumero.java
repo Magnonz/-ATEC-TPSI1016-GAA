@@ -36,7 +36,7 @@ public class AdivinhaNumero {
 			
 			ntentativas++;
 			if(ntentativas==3){
-				System.out.print("Bolas!!!Voce está sem sorte!!O numero secreto era:"+escondinho+"Boa sorte para a proxima!!!3");
+				System.out.print("Bolas!!!Voce está sem sorte!!O numero secreto era:"+escondinho+"Boa sorte para a proxima!!!");
 			}
 			
 			
