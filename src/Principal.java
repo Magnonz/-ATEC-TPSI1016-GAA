@@ -1,6 +1,7 @@
 import dia281016.*;
 import dia21116.*;
 import dia91116.*;
+import exercicios_mine.*;
 import exercicios.*;
 
 import java.util.Scanner;
@@ -23,7 +24,7 @@ public class Principal {
 		System.out.println("4-Comparadores");
 		System.out.println("5-Ciclos");
 		System.out.println("6-Exercicios");	
-		System.out.println("7-Arrays");	
+		System.out.println("7-Ace");	
 		System.out.println("0-Sair");
 		
 		Scanner reader = new Scanner(System.in);
@@ -36,7 +37,7 @@ public class Principal {
 		case 4 : new Condicionais();break;
 		case 5 : new Ciclos();break;
 		case 6 : new Exercicios();break;
-		case 7 : new TreinoArray();break
+		case 7 : new Ace();break;
 		
 		
 

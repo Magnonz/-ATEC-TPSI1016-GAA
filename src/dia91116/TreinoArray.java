@@ -53,13 +53,13 @@ public class TreinoArray {
 		*/
 		
 		/*Array com os grandes jogos
-		 *			   C  L	
+		 *			   L  C	
 		 * grandeJogos[0][0]-1º Posição -Porto vs Benfica
-		 * grandeJogos[0][1]-2º Posição -Sporting vs Arouca
-		 * grandeJogos[0][2]-3º Posição -Braga vs Maritimo 
+		 * grandeJogos[1][0]-2º Posição -Sporting vs Arouca
+		 * grandeJogos[2][0]-3º Posição -Braga vs Maritimo 
 		 * 
 		 */
-		int[][] grandeJogos=new int[2][3];
+		int[][] grandeJogos=new int[3][2];
 		
 		grandeJogos[0][0]=portoBenfica[0];
 		grandeJogos[1][0]=portoBenfica[1];
