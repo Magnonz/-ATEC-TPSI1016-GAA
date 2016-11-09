@@ -46,16 +46,21 @@ public class Blackjack {
 					System.out.println(totaljogador);
 					
 					
+				}else if(op==2){
+					
+					break;
 				}
 				if(totaljogador==21){
 					System.out.println("Voce tem Blackjack");
+				}else if(totaljogador>21){
+					System.out.println("Voce Arrebentou!!");
 				}
 				
-			}						
+			}//While 						
 		
 		
 	
-		}
+		}//1º if
 		
 	}
 
