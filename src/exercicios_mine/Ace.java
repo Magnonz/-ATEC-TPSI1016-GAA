@@ -108,45 +108,41 @@ public class Ace {
 	}//Duece
 	
 	public void Trey(){//3
+		/*
+		 * Intruduzir um numero maior de 5
+		 * Fazer um triangulo conforme o numero que se mete
+		 * Exemplo:
+		 * num=5
+		 * 				    *
+		 * 			       **
+	 	 * 				  ***
+	 	 * 				 ****
+ 	 	 * 				*****
+		 *  	
+		 */
 		
-		//Pedir 5 numeros
-		//Mostrar crescentemente
-		//Mostra a soma dos mesmos
-	
-		int []numeros=new int[5];
-		int []resolve=new int [5];
-		int min=0,soma=0;
+		int num=0;
 		
-		for(int inicio = 0; inicio<5; inicio++){
-			
-			
-			System.out.print("Introduza um numero: ");
-			numeros[inicio]=reader.nextInt();	
-			
-			if(inicio==0){
-				min =numeros[inicio];
-			}
-			
-			
-			
-		}//1ºfor
-		for(int i=0;i<5;i++){	
-		
-		soma=soma+numeros[i];
-		
-		resolve=Array.sor
-		
-			
-			
+		while(num<5){
+			System.out.println("Introduza um numero");
+			num=reader.nextInt();
 		}
-		for(int i2=0;i2<5;i2++){
-			System.out.println(resolve[i2]);
-			
-		}
-		
-		
-		
-		
+					for(int i=1;i<=num;i++){
+						
+						for(int x=1;x<=(num-i);x++){
+							
+								System.out.print(" ");
+						}				
+				
+						for(int x=i;x>=1;x--){
+							
+							    System.out.print("*");
+							
+						}
+						
+						System.out.println();
+					}
+				
 		
 	}
 
